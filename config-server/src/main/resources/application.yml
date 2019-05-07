@@ -1,0 +1,11 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+
